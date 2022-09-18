@@ -1,0 +1,63 @@
+html{
+    background-image:url("pics/whyaoubthis.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#nav{
+    z-index:1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left:0;
+    background-image:url("pics/nav1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:top;
+    background-attachment:fixed;
+    height: 5vw;
+    font-size:xx-large;
+    font-family:forte;
+}
+#content{
+    left:0;
+    width: 100%;
+    background-color: rgba(0,0,0, 75%);
+    top:5vw;
+    color:green;
+    position: absolute;
+}
+#content h1{
+    font-family: vivaldi;
+}
+#game{
+    padding: 1%;
+    font-family:cursive;
+    text-align: left;
+    font-size: x-large;
+    color:cornflowerblue;
+}
+#info{
+    padding-right:1%;
+    font-family: ink free;
+    color:lightgreen;
+    text-align: justify;
+}
+#info img{
+    padding-right: 1%;
+    float: left;
+    width: 50%;
+    height: auto;
+}
+#block{
+    position: relative;
+    display: block;
+}
+#foot{
+    position: fixed;
+    height: 5vw;
+    font-size:xx-large;
+    font-family:forte;
+    z-index: 1;
+    bottom: 0;
+}
